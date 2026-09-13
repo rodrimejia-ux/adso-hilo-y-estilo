@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man Arcade</title>
+    <link rel="stylesheet" href="pacolors.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>PAC-MAN ARCADE</h1>
+            <div class="hud">
+                <div class="hud-item"><span>PUNTOS</span><strong id="score">0</strong></div>
+                <div class="hud-item"><span>NIVEL</span><strong id="level-display">1</strong></div>
+                <div class="hud-item"><span>VIDAS</span><strong id="lives-display">3</strong></div>
+            </div>
+        </header>
+        <canvas id="canvas"></canvas>
+        <p class="hint">Usa las flechas del teclado (↑ ↓ ← →) para moverte</p>
+        <div id="overlay" class="overlay">
+            <div class="overlay-box">
+                <h2 id="overlay-title">PREPARADO</h2>
+                <p id="overlay-text">Come todos los puntos para pasar de nivel. ¡Evita a los fantasmas!</p>
+                <button id="start-btn">JUGAR</button>
+            </div>
+        </div>
+    </div>
+    <script src="jugavilidad.js"></script>
+</body>
+</html>
