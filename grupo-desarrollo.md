@@ -2,4 +2,4 @@
 
 Proyecto final: **Hilo y Estilo**
 
-En revisión de CoderAider. Rodrigo mejia lider del grupo
+En revisión de CoderAider. Rodrigo mejia lider del grupo para Raider
